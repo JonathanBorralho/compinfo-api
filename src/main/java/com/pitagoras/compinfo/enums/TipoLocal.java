@@ -1,4 +1,4 @@
-package com.algaworks.patrimonio.enums;
+package com.pitagoras.compinfo.enums;
 
 public enum TipoLocal {
 	AUDITORIO,

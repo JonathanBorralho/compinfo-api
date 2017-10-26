@@ -1,10 +1,10 @@
-package com.algaworks.patrimonio.repository;
+package com.pitagoras.compinfo.repository;
 
 import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.algaworks.patrimonio.model.Evento;
+import com.pitagoras.compinfo.model.Evento;
 
 public interface EventoRepository extends JpaRepository<Evento, Long> {
 	

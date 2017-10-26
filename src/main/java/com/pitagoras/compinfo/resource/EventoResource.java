@@ -1,4 +1,4 @@
-package com.algaworks.patrimonio.resource;
+package com.pitagoras.compinfo.resource;
 
 import java.util.List;
 
@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.algaworks.patrimonio.model.Evento;
-import com.algaworks.patrimonio.repository.EventoRepository;
+import com.pitagoras.compinfo.model.Evento;
+import com.pitagoras.compinfo.repository.EventoRepository;
 
 @RestController
 public class EventoResource {

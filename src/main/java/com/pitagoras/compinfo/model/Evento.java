@@ -1,4 +1,4 @@
-package com.algaworks.patrimonio.model;
+package com.pitagoras.compinfo.model;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
@@ -12,9 +12,9 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 
-import com.algaworks.patrimonio.enums.StatusEvento;
-import com.algaworks.patrimonio.enums.TipoEvento;
-import com.algaworks.patrimonio.enums.Turno;
+import com.pitagoras.compinfo.enums.StatusEvento;
+import com.pitagoras.compinfo.enums.TipoEvento;
+import com.pitagoras.compinfo.enums.Turno;
 
 @Entity
 public class Evento {

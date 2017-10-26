@@ -1,4 +1,4 @@
-package com.algaworks.patrimonio.model;
+package com.pitagoras.compinfo.model;
 
 import java.time.LocalDate;
 

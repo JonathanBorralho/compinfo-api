@@ -1,4 +1,4 @@
-package com.algaworks.patrimonio.model;
+package com.pitagoras.compinfo.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -8,7 +8,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
-import com.algaworks.patrimonio.enums.TipoLocal;
+import com.pitagoras.compinfo.enums.TipoLocal;
 
 @Entity
 public class Local {
