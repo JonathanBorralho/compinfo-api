@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.pitagoras.compinfo.model.Curso;
 import com.pitagoras.compinfo.repository.CursoRepository;
 
-@CrossOrigin(origins = "**")
+@CrossOrigin(origins = "*")
 @RestController
 public class CursoResource {
 	

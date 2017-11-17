@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.pitagoras.compinfo.model.Disciplina;
 import com.pitagoras.compinfo.repository.DisciplinaRepository;
 
-@CrossOrigin(origins = "**")
+@CrossOrigin(origins = "*")
 @RestController
 public class DisciplinaResourse {
 	
